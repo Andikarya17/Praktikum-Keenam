@@ -1,0 +1,64 @@
+body {
+    background-image: url(https://img.goodfon.com/wallpaper/nbig/a/d1/real-madrid-cf-wallpaper-logo-440.webp); /* Stadion Bernabéu atau atmosfer sepak bola */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    color: gold;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #0A1E62; /* biru tua Real Madrid */
+    background: #ffffff;
+    color: #0A1E62;
+    box-shadow: 1px 1px 4px #00000088;
+    border-radius: 10px;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin: 15px auto;
+    width: fit-content;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+video, audio {
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #FFD700; /* warna emas */
+    border-radius: 10px;
+}
+
+picture img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+#gambar {
+    color: black;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+}
+

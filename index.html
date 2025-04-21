@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Real Madrid</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Send+Flowers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Send+Flowers&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+</head>
+<body>
+    <center>
+        <h1>¡Hala Madrid!</h1>
+        <ul>
+            <li>
+                <h2 id="video">Video ¡Hala Madrid!...y nada más</h2>
+                <video controls width="700" height="500" loop autoplay muted preload="auto">
+                    <source src="Hala Madrid...y nada más (feat. RedOne).mp4" type="video/mp4">
+                    
+                </video>
+            </li>
+            <li>
+                <h2 id="audio">Audio ¡Hala Madrid!...y nada más</h2>
+                <audio controls>
+                    <source src="Hala Madrid...y nada más (feat. RedOne).mp3" type="audio/mp3">
+                </audio>
+            </li>
+            <li id="gambar">Responsive Picture</li>
+            <picture>
+                <source media="(max-width: 600px)" srcset="https://statik.tempo.co/data/2025/04/09/id_1390465/1390465_720.jpg">
+                <source media="(max-width: 1200px)" srcset="https://assets.goal.com/images/v3/bltf56a870d0233b058/new_santiago_bernabeu.jpg?auto=webp&format=pjpg&width=1920&quality=60">
+                <img src="https://statik.tempo.co/data/2025/04/09/id_1390465/1390465_720.jpg" alt="pic 1" style="width: auto;">
+            </picture>
+        </ul>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
